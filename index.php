@@ -15,7 +15,7 @@
             <?php
             $servername = "localhost";
             $username = "root";
-            $password = "";
+            $password = "password";
             $dbname = "nurses";
             $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);      
             $sql = "SELECT id_nurse, name FROM nurse";
@@ -39,7 +39,7 @@
 
             $servername = "localhost";
             $username = "root";
-            $password = "";
+            $password = "password";
             $dbname = "nurses";
             $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);           
 
@@ -67,7 +67,7 @@
                 <?php
                 $servername = "localhost";
                 $username = "root";
-                $password = "";
+                $password = "password";
                 $dbname = "nurses";
                 $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
                 $sql = "SELECT DISTINCT `shift` FROM nurse";
